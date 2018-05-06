@@ -12,24 +12,24 @@ import (
 
 // GetECBalance returns the balance in factoshi (factoid * 1e8) of a given Entry
 // Credit Public Address.
-func GetECBalance(addr string) (int64, error) {
+func GetECBalance(addr string) (uint64, error) {
 	type balanceResponse struct {
-		Balance int64 `json:"balance"`
+		Balance uint64 `json:"balance"`
 	}
 
 	params := addressRequest{Address: addr}
 	req := NewJSON2Request("entry-credit-balance", APICounter(), params)
 	resp, err := factomdRequest(req)
 	if err != nil {
-		return -1, err
+		return 0, err
 	}
 	if resp.Error != nil {
-		return -1, resp.Error
+		return 0, resp.Error
 	}
 
 	balance := new(balanceResponse)
 	if err := json.Unmarshal(resp.JSONResult(), balance); err != nil {
-		return -1, err
+		return 0, err
 	}
 
 	return balance.Balance, nil
@@ -37,24 +37,24 @@ func GetECBalance(addr string) (int64, error) {
 
 // GetFactoidBalance returns the balance in factoshi (factoid * 1e8) of a given
 // Factoid Public Address.
-func GetFactoidBalance(addr string) (int64, error) {
+func GetFactoidBalance(addr string) (uint64, error) {
 	type balanceResponse struct {
-		Balance int64 `json:"balance"`
+		Balance uint64 `json:"balance"`
 	}
 
 	params := addressRequest{Address: addr}
 	req := NewJSON2Request("factoid-balance", APICounter(), params)
 	resp, err := factomdRequest(req)
 	if err != nil {
-		return -1, err
+		return 0, err
 	}
 	if resp.Error != nil {
-		return -1, resp.Error
+		return 0, resp.Error
 	}
 
 	balance := new(balanceResponse)
 	if err := json.Unmarshal(resp.JSONResult(), balance); err != nil {
-		return -1, err
+		return 0, err
 	}
 
 	return balance.Balance, nil

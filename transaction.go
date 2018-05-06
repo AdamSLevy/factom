@@ -546,7 +546,7 @@ func SendFactoid(from, to string, amount uint64, force bool) (*Transaction, erro
 	if err != nil {
 		return nil, err
 	}
-	if balance > int64(amount) {
+	if balance > amount {
 		if _, err := AddTransactionFee(name, from); err != nil {
 			return nil, err
 		}

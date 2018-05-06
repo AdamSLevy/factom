@@ -19,10 +19,10 @@ func ResolveDnsName(addr string) (string, string, error) {
 	return fct, ec, nil
 }
 
-func GetDnsBalance(addr string) (int64, int64, error) {
+func GetDnsBalance(addr string) (uint64, uint64, error) {
 	fct, ec, err := ResolveDnsName(addr)
 	if err != nil {
-		return -1, -1, err
+		return 0, 0, err
 	}
 
 	f, err1 := GetFactoidBalance(fct)
