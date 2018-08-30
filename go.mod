@@ -1,7 +1,6 @@
 module github.com/AdamSLevy/factom
 
 require (
-	github.com/AdamSLevy/factom v0.0.0-20180830000949-6088e7ca20ef
 	github.com/FactomProject/FactomCode v0.0.0-20161025182523-fa03af8ca695 // indirect
 	github.com/FactomProject/basen v0.0.0-20150613233007-fe3947df716e // indirect
 	github.com/FactomProject/bolt v0.0.0-20170202195217-952a1b4e9a55 // indirect
