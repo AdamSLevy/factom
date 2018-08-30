@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/FactomProject/factom"
-	. "github.com/FactomProject/factom/wallet"
+	"github.com/AdamSLevy/factom"
+	. "github.com/AdamSLevy/factom/wallet"
 )
 
 func TestNewWallet(t *testing.T) {

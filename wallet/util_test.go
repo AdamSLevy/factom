@@ -5,7 +5,7 @@
 package wallet_test
 
 import (
-	. "github.com/FactomProject/factom/wallet"
+	. "github.com/AdamSLevy/factom/wallet"
 	"testing"
 )
 

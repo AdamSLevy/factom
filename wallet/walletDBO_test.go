@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/FactomProject/factom/wallet"
+	. "github.com/AdamSLevy/factom/wallet"
 )
 
 func TestWalletDBO(t *testing.T) {

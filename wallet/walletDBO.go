@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/FactomProject/factom"
+	"github.com/AdamSLevy/factom"
 	"github.com/FactomProject/factomd/common/interfaces"
 	"github.com/FactomProject/factomd/common/primitives"
 	"github.com/FactomProject/factomd/database/databaseOverlay"

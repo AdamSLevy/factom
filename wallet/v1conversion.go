@@ -7,10 +7,10 @@ package wallet
 import (
 	"fmt"
 
+	"github.com/AdamSLevy/factom"
 	"github.com/FactomProject/factoid"
 	"github.com/FactomProject/factoid/state/stateinit"
 	"github.com/FactomProject/factoid/wallet"
-	"github.com/FactomProject/factom"
 )
 
 // This file is a dirty hack to to get the keys out of a version 1 wallet.

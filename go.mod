@@ -1,7 +1,7 @@
 module github.com/AdamSLevy/factom
 
 require (
-	github.com/FactomProject/FactomCode v0.0.0-20161025182523-fa03af8ca695 // indirect
+	github.com/FactomProject/FactomCode v0.0.0-20171228170625-d7e03150a9d5 // indirect
 	github.com/FactomProject/basen v0.0.0-20150613233007-fe3947df716e // indirect
 	github.com/FactomProject/bolt v0.0.0-20170202195217-952a1b4e9a55 // indirect
 	github.com/FactomProject/btcd v0.3.5 // indirect
@@ -35,10 +35,10 @@ require (
 	github.com/onsi/gomega v1.4.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/testify v1.2.2 // indirect
-	golang.org/x/crypto v0.0.0-20171219041129-d585fd2cc919 // indirect
-	golang.org/x/net v0.0.0-20171212005608-d866cfc389ce // indirect
+	golang.org/x/crypto v0.0.0-20170930174604-9419663f5a44 // indirect
+	golang.org/x/net v0.0.0-20171016235512-1087133bc4af // indirect
 	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f // indirect
-	golang.org/x/sys v0.0.0-20171220172423-d818ba11af44 // indirect
+	golang.org/x/sys v0.0.0-20171017063910-8dbc5d05d6ed // indirect
 	golang.org/x/text v0.3.0 // indirect
 	gopkg.in/fsnotify.v1 v1.4.7 // indirect
 	gopkg.in/gcfg.v1 v1.2.3 // indirect
@@ -46,9 +46,4 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.2.1 // indirect
 	launchpad.net/gocheck v0.0.0-20140225173054-000000000087 // indirect
-)
-
-exclude (
-	github.com/FactomProject/factom v0.0.0-20180820194517-3a9322ab8951
-	github.com/FactomProject/factom v0.3.5
 )

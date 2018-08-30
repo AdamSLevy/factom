@@ -5,7 +5,7 @@
 package wsapi
 
 import (
-	"github.com/FactomProject/factom"
+	"github.com/AdamSLevy/factom"
 	"github.com/FactomProject/web"
 )
 

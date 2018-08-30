@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/FactomProject/factom"
+	"github.com/AdamSLevy/factom"
 	"github.com/FactomProject/factomd/common/directoryBlock"
 	"github.com/FactomProject/factomd/common/factoid"
 	"github.com/FactomProject/factomd/common/interfaces"

@@ -7,8 +7,8 @@ package wallet_test
 import (
 	"testing"
 
-	"github.com/FactomProject/factom"
-	. "github.com/FactomProject/factom/wallet"
+	"github.com/AdamSLevy/factom"
+	. "github.com/AdamSLevy/factom/wallet"
 	"github.com/FactomProject/factomd/common/primitives"
 )
 

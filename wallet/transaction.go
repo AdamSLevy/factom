@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"regexp"
 
+	"github.com/AdamSLevy/factom"
 	"github.com/FactomProject/btcutil/base58"
-	"github.com/FactomProject/factom"
 	"github.com/FactomProject/factomd/common/factoid"
 	"github.com/FactomProject/factomd/common/primitives"
 	"github.com/FactomProject/goleveldb/leveldb"

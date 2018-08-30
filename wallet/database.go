@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/FactomProject/factom"
+	"github.com/AdamSLevy/factom"
 	"github.com/FactomProject/factomd/common/factoid"
 )
 

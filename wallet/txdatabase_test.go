@@ -8,7 +8,7 @@ import (
 	//"fmt" // DEBUG
 	"testing"
 
-	. "github.com/FactomProject/factom/wallet"
+	. "github.com/AdamSLevy/factom/wallet"
 	"github.com/FactomProject/factomd/common/interfaces"
 	"github.com/FactomProject/factomd/testHelper"
 )

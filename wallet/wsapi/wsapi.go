@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/AdamSLevy/factom"
+	"github.com/AdamSLevy/factom/wallet"
 	"github.com/FactomProject/btcutil/certs"
-	"github.com/FactomProject/factom"
-	"github.com/FactomProject/factom/wallet"
 	"github.com/FactomProject/factomd/common/factoid"
 	"github.com/FactomProject/factomd/common/interfaces"
 	"github.com/FactomProject/factomd/common/primitives"
