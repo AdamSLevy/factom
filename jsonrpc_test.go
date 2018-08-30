@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	. "github.com/FactomProject/factom"
+	. "github.com/AdamSLevy/factom"
 	"testing"
 )
 

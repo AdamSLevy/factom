@@ -5,7 +5,7 @@
 package factom_test
 
 import (
-	. "github.com/FactomProject/factom"
+	. "github.com/AdamSLevy/factom"
 	"testing"
 
 	"os"
@@ -13,8 +13,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/FactomProject/factom/wallet"
-	"github.com/FactomProject/factom/wallet/wsapi"
+	"github.com/AdamSLevy/factom/wallet"
+	"github.com/AdamSLevy/factom/wallet/wsapi"
 	"io/ioutil"
 	"net/http"
 )

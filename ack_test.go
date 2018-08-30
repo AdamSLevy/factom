@@ -10,7 +10,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	. "github.com/FactomProject/factom"
+	. "github.com/AdamSLevy/factom"
 )
 
 var ()

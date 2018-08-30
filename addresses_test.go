@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	ed "github.com/FactomProject/ed25519"
-	. "github.com/FactomProject/factom"
+	. "github.com/AdamSLevy/factom"
 	"github.com/FactomProject/go-bip32"
 )
 

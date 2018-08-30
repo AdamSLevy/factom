@@ -13,7 +13,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	. "github.com/FactomProject/factom"
+	. "github.com/AdamSLevy/factom"
 )
 
 func TestUnmarshalJSON(t *testing.T) {
