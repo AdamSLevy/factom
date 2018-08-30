@@ -1,7 +1,7 @@
 module github.com/AdamSLevy/factom
 
 require (
-	github.com/AdamSLevy/factom v0.0.0-20180830000318-ce572beec3a3
+	github.com/AdamSLevy/factom v0.0.0-20180830000949-6088e7ca20ef
 	github.com/FactomProject/FactomCode v0.0.0-20161025182523-fa03af8ca695 // indirect
 	github.com/FactomProject/basen v0.0.0-20150613233007-fe3947df716e // indirect
 	github.com/FactomProject/bolt v0.0.0-20170202195217-952a1b4e9a55 // indirect
@@ -47,4 +47,9 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.2.1 // indirect
 	launchpad.net/gocheck v0.0.0-20140225173054-000000000087 // indirect
+)
+
+exclude (
+	github.com/FactomProject/factom v0.0.0-20180820194517-3a9322ab8951
+	github.com/FactomProject/factom v0.3.5
 )
